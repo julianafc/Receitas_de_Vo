@@ -1,0 +1,36 @@
+h1,
+h2 {
+    color: #ff6a28
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6a28;
+}
+
+#title {
+    font-size: 35px;
+    text-align: center;
+}
+
+.quadReceitas {
+    width: 275px;
+    height: 350px;
+    border: solid red;
+    text-align: center;
+}
+
+span {
+    padding-right: 8px;
+}
+
+.fotoDestaques {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
