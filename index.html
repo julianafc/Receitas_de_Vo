@@ -3,19 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abel&display=swap"
+      rel="stylesheet"
+    />
     <title>Receitas de Vó</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 id="title">Receitas de Vó</h1>
-    <nav>
-      <span> <a href="#home">Home</a> </span>
-      <span> <a href="#contato">Contato</a> </span>
-    </nav>
-
+    <header>
+      <h1 class="titulo">
+        <span class="preto"> Receitas de </span>
+        <span class="laranja">Vó </span>
+      </h1>
+      <nav>
+        <span class="menu"> <a href="#home">Home</a> </span>
+        <span class="menu"> <a href="#">Carnes</a> </span>
+        <span class="menu"> <a href="#">Aves</a> </span>
+        <span class="menu">
+          <a href="#">Peixes e frutos do mar</a>
+        </span>
+        <span class="menu"> <a href="#">Lanches</a> </span>
+        <span class="menu"> <a href="#">Doces e sobremesas</a> </span>
+        <span class="menu"> <a href="#">Sopas</a> </span>
+      </nav>
+    </header>
     <main>
       <section id="destaque">
-        <h2>Receitas em destaque:</h2>
+        <h2 class="laranja">Receitas em destaque:</h2>
         <div class="quadReceitas">
           <h3>Nome da Receita</h3>
           <img
@@ -27,16 +48,9 @@
           <a href="pagReceitas.html">Link da receita</a>
         </div>
       </section>
-      <section id="contato">
-        <h2>Contato</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget
-          ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa.
-          Pellentesque habitant morbi tristique senectus et netus et malesuada
-          fames ac turpis egestas. Nulla at risus. Quisque purus magna, auctor
-          et, sagittis ac, posuere eu, lectus. Nam mattis, felis ut adipiscing.
-        </p>
-      </section>
     </main>
+    <footer>
+      <p class="rodape">Feito por Juliana Figueira</p>
+    </footer>
   </body>
 </html>

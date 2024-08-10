@@ -1,36 +1,57 @@
-h1,
-h2 {
-    color: #ff6a28
-}
+ a {
+     color: black;
+     text-decoration: none;
+     /* tirei o traço debaixo do link */
+ }
 
-a {
-    color: black;
-    text-decoration: none;
-}
+ a:hover {
+     color: #ff6a28;
+ }
 
-a:hover {
-    color: #ff6a28;
-}
+ .titulo {
+     font-size: 35px;
+     text-align: center;
+     font-family: 'abel', sans-serif;
+ }
 
-#title {
-    font-size: 35px;
-    text-align: center;
-}
+ .preto {
+     color: black;
+ }
 
-.quadReceitas {
-    width: 275px;
-    height: 350px;
-    border: solid red;
-    text-align: center;
-}
+ .laranja {
+     color: #ff6a28;
+ }
 
-span {
-    padding-right: 8px;
-}
+ .quadReceitas {
+     width: 275px;
+     height: 350px;
+     border: solid red;
+     /* retirar depois */
+     text-align: center;
+ }
 
-.fotoDestaques {
-    max-width: 150px;
-    max-height: 150px;
-    width: auto;
-    height: auto;
-}
+ .menu {
+     padding-right: 8px;
+ }
+
+ .fotoDestaques {
+     max-width: 150px;
+     max-height: 150px;
+     width: auto;
+     height: auto;
+ }
+
+ .rodape {
+     text-align: center;
+ }
+
+ h2,
+ h3,
+ p,
+ .menu {
+     font-family: 'abel', sans-serif;
+ }
+
+ nav {
+     text-align: center;
+ }
