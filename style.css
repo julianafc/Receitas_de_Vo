@@ -6,6 +6,12 @@
 
  a:hover {
      color: #ff6a28;
+
+     p {
+         color: black;
+     }
+
+     ;
  }
 
  .titulo {
@@ -20,14 +26,21 @@
 
  .laranja {
      color: #ff6a28;
+     margin-left: 30px;
+ }
+
+ .laranja-titulo {
+     color: #ff6a28;
  }
 
  .quadReceitas {
-     width: 275px;
+     width: 276px;
      height: 350px;
-     border: solid red;
-     /* retirar depois */
      text-align: center;
+     box-shadow: 0px 3px 10px 0px lightgray;
+     margin-left: 50px;
+     padding-top: 20px;
+     border: solid #ff6a28;
  }
 
  .menu {
@@ -54,4 +67,8 @@
 
  nav {
      text-align: center;
+ }
+
+ .resumo-receita {
+     padding: 5px 15px;
  }
