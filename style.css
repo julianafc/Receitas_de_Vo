@@ -106,8 +106,25 @@
      padding-right: 8px;
  }
 
- .rodape {
+ #rodape {
      text-align: center;
+     vertical-align: bottom;
+
+     div {
+         display: inline-block;
+         vertical-align: middle;
+     }
+
+     p {
+         display: inline-block;
+     }
+
+     ;
+ }
+
+ .logo-redes {
+     width: 35px;
+     height: 35px;
  }
 
  h2,
