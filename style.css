@@ -20,6 +20,10 @@
      font-family: 'abel', sans-serif;
  }
 
+ .titulo-receita {
+     text-align: center;
+ }
+
  .preto {
      color: black;
  }
@@ -43,6 +47,39 @@
      border: solid #ff6a28;
  }
 
+ #div-receita {
+     width: 1110px;
+     height: 700px;
+     border: solid red;
+     display: inline-block;
+     vertical-align: bottom;
+ }
+
+ #foto-receita {
+     width: 480px;
+     height: 580px;
+     border: solid red;
+     margin: 58px 0px 58px 40px;
+     display: inline-block;
+     vertical-align: bottom;
+ }
+
+ #informacoes-receita {
+     width: 480px;
+     height: 580px;
+     display: inline-block;
+     border: solid red;
+     margin: 58px 40px 58px 0px;
+     vertical-align: bottom;
+ }
+
+ .descricao-receita {
+     width: 480px;
+     height: 175px;
+     border: solid red;
+     margin-right: 35px;
+ }
+
  .menu {
      padding-right: 8px;
  }
@@ -61,7 +98,9 @@
  h2,
  h3,
  p,
- .menu {
+ .menu,
+ ul,
+ ol {
      font-family: 'abel', sans-serif;
  }
 
