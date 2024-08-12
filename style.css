@@ -30,7 +30,7 @@
 
  .laranja {
      color: #ff6a28;
-     margin-left: 30px;
+     margin-left: 150px;
  }
 
  .laranja-titulo {
@@ -38,13 +38,35 @@
  }
 
  .quadReceitas {
-     width: 276px;
-     height: 350px;
+     width: 1148px;
+     height: 188px;
      text-align: center;
      box-shadow: 0px 3px 10px 0px lightgray;
-     margin-left: 50px;
-     padding-top: 20px;
      border: solid #ff6a28;
+     margin-bottom: 40px;
+ }
+
+ .div-destaque-esquerda {
+     width: 283px;
+     height: 188px;
+     display: inline-block;
+     vertical-align: bottom;
+
+ }
+
+ .fotoDestaques {
+     max-width: 100%;
+     max-height: 100%;
+     width: auto;
+     height: auto;
+     margin-left: -11px;
+ }
+
+ .breve-descricao {
+     width: 851px;
+     height: 188px;
+     display: inline-block;
+     vertical-align: bottom;
  }
 
  #div-receita {
@@ -84,13 +106,6 @@
      padding-right: 8px;
  }
 
- .fotoDestaques {
-     max-width: 150px;
-     max-height: 150px;
-     width: auto;
-     height: auto;
- }
-
  .rodape {
      text-align: center;
  }
@@ -110,4 +125,9 @@
 
  .resumo-receita {
      padding: 5px 15px;
+ }
+
+ #centralizar-divs {
+     display: grid;
+     place-items: center;
  }
