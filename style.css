@@ -62,6 +62,7 @@
      width: 283px;
      height: 188px;
      margin-left: -10px;
+     object-fit: cover;
  }
 
  .breve-descricao {
@@ -86,6 +87,7 @@
      margin: 58px 0px 58px 40px;
      display: inline-block;
      vertical-align: bottom;
+     object-fit: cover;
  }
 
  #informacoes-receita {
