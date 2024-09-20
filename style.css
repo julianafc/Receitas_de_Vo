@@ -43,6 +43,7 @@
      text-align: center;
      box-shadow: 0px 3px 10px 0px lightgray;
      border: solid #ff6a28;
+     border-radius: 5px;
      margin-bottom: 40px;
  }
 
@@ -72,42 +73,47 @@
      vertical-align: bottom;
  }
 
- #div-receita {
-     width: 1110px;
-     height: 700px;
-     border: solid red;
-     display: inline-block;
-     vertical-align: bottom;
+ #centralizar-foto,
+ .descricao-receita {
+     display: grid;
+     place-items: center;
  }
 
- #foto-receita {
-     width: 480px;
-     height: 580px;
-     border: solid red;
-     margin: 58px 0px 58px 40px;
-     display: inline-block;
-     vertical-align: bottom;
+ .fotos-receitas {
+     width: 700px;
+     height: 500px;
      object-fit: cover;
- }
-
- #informacoes-receita {
-     width: 480px;
-     height: 580px;
-     display: inline-block;
-     border: solid red;
-     margin: 58px 40px 58px 0px;
-     vertical-align: bottom;
+     border-radius: 5px;
+     border: 4px solid #ff6a28;
  }
 
  .descricao-receita {
-     width: 480px;
-     height: 175px;
-     border: solid red;
-     margin-right: 35px;
+     display: grid;
+     place-items: center;
+     width: 700px;
+     margin: 0 auto;
+     direction: ltr;
+
+     ul,
+     ol {
+         width: 700px;
+
+         p {
+             padding: 0;
+             margin: 0;
+         }
+     }
  }
 
  .menu {
      padding-right: 8px;
+ }
+
+ #division {
+     color: #D9D9D9;
+     width: 1120px;
+     margin-top: 40px;
+     margin-bottom: 64px;
  }
 
  #rodape {
