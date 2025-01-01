@@ -12,7 +12,9 @@ Receitas de Vó é um site simples e aconchegante que apresenta várias receitas
 - Navegação entre sessões com diferentes tipos de comida.
 - Visual intuitivo e acolhedor, ideal para qualquer dispositivo.
 
-## 🖼 Imagem do Projeto:
+## 🖼 Demonstração do Projeto:
 ![Receitas de Vó - Screenshot](https://github.com/user-attachments/assets/28d54fba-2841-41ad-90f5-4bc9d374af0f)
 
-Acesse o projeto através deste link: [Página Receita de Vó](https://github.com/julianafc/Site-de-receitas).
+
+## 🌐 Acesse a Página:
+Curioso para ver o resultado? Você pode explorar a página clicando [aqui](https://github.com/julianafc/Site-de-receitas).
