@@ -1,6 +1,11 @@
  :root{
     font-optical-sizing: auto;
  }
+
+ html{
+    max-width: 1244px;
+    margin:auto;
+ }
  
  a {
      color: black;
@@ -43,18 +48,47 @@
      color: #ff6a28;
  }
 
+ #centralizar-divs {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     gap: 40px;
+     width: 100%;
+     max-width: 1244px;
+     margin: 0 auto;
+ }
+ 
+ main {
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+ }
+
+#destaque{
+    width: 100%;
+    max-width: 1244px;
+    margin: 0 auto;
+}
+
  .quadReceitas {
-     width: 1148px;
-     height: 188px;
+     width: 100%;
+     max-width: 1144px;
+     height: auto;
+     flex: 1;
+     box-sizing: border-box;
      text-align: center;
      box-shadow: 0px 3px 10px 0px lightgray;
      border: solid #ff6a28;
      border-radius: 5px;
-     margin-bottom: 40px;
-     /* object-fit:; */
+ }
+
+ .resumo-receita {
+     padding: 5px 15px;
  }
 
  .div-destaque-esquerda {
+    margin: 0;
      width: 283px;
      height: 188px;
      display: inline-block;
@@ -64,7 +98,6 @@
  .fotoDestaques {
     width: 100%;
      height: 188px;
-     margin-left: -10px;
      object-fit: cover;
  }
 
@@ -118,7 +151,6 @@
          }
 }
 
-
  .menu {
      padding-right: 8px;
  }
@@ -158,21 +190,3 @@
  nav {
      text-align: center;
  }
-
- .resumo-receita {
-     padding: 5px 15px;
- }
-
- #centralizar-divs {
-     display: grid;
-     place-items: center;
- }
-
-/* @media (max-width: ) {
-    
-} */
-#paginicial main {
-	padding: 40px 20px;
-	display: flex;
-	justify-content: center;
-}
