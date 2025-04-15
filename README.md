@@ -17,4 +17,4 @@ Receitas de Vó é um site simples e aconchegante que apresenta várias receitas
 
 
 ## 🌐 Acesse a Página:
-Curioso para ver o resultado? Você pode explorar a página clicando [aqui](https://github.com/julianafc/Site-de-receitas).
+Curioso para ver o resultado? Você pode explorar a página clicando [aqui]([https://github.com/julianafc/Site-de-receitas](https://julianafc.github.io/Receitas_de_Vo/)).
